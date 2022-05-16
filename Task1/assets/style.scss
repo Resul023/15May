@@ -1,0 +1,38 @@
+
+ #menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+ #menu .menu-item{
+    width: 100px;
+    background-color: rgb(178, 176, 176);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+ #menu .active-menu-item{
+    background-color: rgb(80, 80, 80);
+}
+.text{
+    position: relative;
+}
+.menu-text{
+    border: 1px solid black;
+    width: 418px;
+    display: flex;
+    
+    margin-left:570px;
+    margin-top: -16px;
+    position: absolute;
+}
+.visible{
+    visibility: visible;
+}
+.notvisible{
+    visibility: hidden;
+}
+

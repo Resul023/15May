@@ -1,0 +1,45 @@
+#menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .menu-item {
+  width: 100px;
+  background-color: #b2b0b0;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#menu .active-menu-item {
+  background-color: #505050;
+}
+
+.text {
+  position: relative;
+}
+
+.menu-text {
+  border: 1px solid black;
+  width: 418px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 570px;
+  margin-top: -16px;
+  position: absolute;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.notvisible {
+  visibility: hidden;
+}
+/*# sourceMappingURL=style.css.map */

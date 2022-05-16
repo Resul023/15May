@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.contain-size{
+    width: 100%;
+    
+}
+#nav{
+    background-color: #f8f9fa !important;
+}
+.menu{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: absolute;
+    right: 2px;
+    
+    #nav{
+        display: flex;
+        padding: 15px;
+        border: 1px solid #dee2e6 !important;
+        position: relative;
+        align-items: center;
+        .nav{
+            position: absolute;
+            right: 0;
+            .nav-item{
+                
+                a{
+                    color: rgba(0, 0, 0, 0.55);
+                    line-height: 18px;
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+        }
+        
+    }
+    
+}
+
+
+.contain{
+    .row{
+        .col-2{
+            visibility: hidden;
+            padding-right: 0 !important;
+            border-right: 1px solid #dee2e6 !important;
+            min-height: 100vh;
+            position: absolute;
+            left: -2px;
+            padding-left: 0px;
+            .menu-title{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                
+                p{
+                    border: 1px solid #dee2e6 !important;
+                    background-color: #f8f9fa !important;
+                    padding: 20px;
+                    margin-bottom: 0!important;
+                }
+                a{
+                    border-bottom: 1px solid #dee2e6 !important;
+                    padding: 18px;
+                    text-decoration: none;
+                    color: #636464;
+                    
+                }
+                a:hover{
+                    background-color: #cac9c9;
+                }
+            }
+        }
+    }
+}
+
+
+.animation{
+    animation-name: sideBar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.active-item{
+    background-color: #cac9c9;
+}
+
+.sidebar-visibility{
+    visibility: visible !important;
+}
+
+
+
+@keyframes sideBar{
+    from{
+        transform: translate(-250px);
+    }
+    to{
+        transform: translate(0px);
+    }
+
+}
+
+.menu-width{
+    width: 1690px;
+}
+
+
+
+
+
